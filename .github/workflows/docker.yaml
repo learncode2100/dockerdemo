@@ -18,6 +18,8 @@ jobs:
           # List of tags
           tags: demo:latest
       - name: Docker run
-        run: docker run demo:latest
+        run: | 
+          docker run demo:latest
+          docker images
 
            
